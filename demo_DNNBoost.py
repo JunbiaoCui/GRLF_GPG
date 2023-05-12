@@ -30,8 +30,8 @@ random.seed(rand_seed)
 np.random.seed(rand_seed)
 cudnn.benchmark = True
 
-data_dir = '/root/cjbDisk/Projects/GRLF_GPG/DataSet/MNIST/'
-res_dir = '/root/cjbDisk/Projects/GRLF_GPG/Result/MNIST/'
+data_dir = '/DataSet/MNIST/'
+res_dir = '/Result/MNIST/'
 
 VC_Dim_Loss_weight = 0.1
 # When VC_Dim_Loss_weight>0, the proposed boosting module will work
