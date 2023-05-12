@@ -20,8 +20,8 @@ device = torch.device('cpu')
 if torch.cuda.is_available():
     device = torch.device('cuda:1')
 
-data_dir = '/root/cjbDisk/Projects/GRLF_GPG/DataSet/TaiChi/'
-res_dir = '/root/cjbDisk/Projects/GRLF_GPG/Result/TaiChi/'
+data_dir = '/DataSet/TaiChi/'
+res_dir = '/Result/TaiChi/'
 beg_str = time.strftime('%y-%m-%d@%H-%M-%S', time.localtime())
 
 """
