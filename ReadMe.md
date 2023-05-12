@@ -1,3 +1,5 @@
+# Code of "A General Representation Learning Framework with Generalization Performance Guarantees"
+
 # 1. Fold Structure
 ## 1.1 /GRLF_GPG/Core/
 The core function modules, including:
